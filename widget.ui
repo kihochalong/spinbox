@@ -55,5 +55,21 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>138</x>
+     <y>165</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
 </ui>
